@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style> 
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0px;
+        background-color: #f4f4f4;
+    }
+    header {
+        background-color: #35424a;;
+        padding-left: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    nav {
+        margin: 0;
+        padding: 0;
+        border-radius: 10px 0px
+    }
+    nav a {
+        color: rgb(94, 90, 90);
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    main {
+        background-color: #ffffff;;
+        padding-left: 10px;
+        margin: 10px;
+        box-shadow: 1px 1px 1px black;
+        border-radius: 20px;
+    }
+    
+    article {
+        background-color: #7a7272;
+        
+    }
+    footer {
+        background-color: #000000;
+        color: white;
+        padding-left: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+    footer> p {
+        margin: 0;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>Grouping tags</h1>
+    <p>Tags de agrupamento são usadas para agrupar outros elementos HTML. Elas não possuem um significado semântico específico, mas são úteis para aplicar estilos ou scripts a um conjunto de elementos. As tags de agrupamento mais comuns são <code>&lt;div&gt;</code> e <code>&lt;span&gt;</code>.</p>
+
+    <h2>Exemplo com &lt;div&gt;</h2>
+    <div style="border: 2px solid black; padding: 10px; background-color: lightgray;">
+        <h3>Conteúdo dentro de uma div</h3>
+        <p>Este parágrafo está dentro de uma tag &lt;div&gt;. A tag &lt;div&gt; é um elemento de nível bloco (block-level), o que significa que ela ocupa toda a largura disponível e começa em uma nova linha.</p>
+    </div>
+
+    <h2>Exemplo com &lt;span&gt;</h2>
+    <p>Este é um parágrafo com um <span style="color: red; font-weight: bold;">texto destacado</span> usando a tag &lt;span&gt;. A tag &lt;span&gt; é um elemento inline (inline-level), o que significa que ela não inicia uma nova linha e só ocupa o espaço necessário para seu conteúdo.</p>
+
+
+
+
+    <header>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a> 
+        </nav>
+
+
+
+    </header>
+    <main> 
+        <section id="assuntos">
+        </section>
+        <section id="noticias">
+            <article>
+                
+                <p>lorem
+                ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet accumsan arcu. Proin ac consequat arcu. Nullam euismod, nisi vel consectetur interdum, nisl nisi consectetur nisi, euismod aliquam nisl nisi euismod.
+                </p>
+                <aside> 
+                    <p>Artigo escrito por Jóse</p>
+                </aside>
+                
+            </article>
+        </section>
+            
+
+
+
+    </main>
+
+   
+
+    <main>
+        <section>
+            <h2>Seção Principal</h2>
+            <p>Conteúdo principal do documento.</p>
+        </section>
+        <article>
+            <h2>Artigo</h2>
+            <p>Conteúdo de um artigo específico.</p>
+        </article>
+    </main>
+    <footer>
+        <p>Rodapé do documento</p>  
+    </footer>
+
+
+
+
+
+
+    
+</body>
+</html>

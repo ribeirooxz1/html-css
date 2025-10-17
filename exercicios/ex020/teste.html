@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Cap 15</title>
+    <style>
+        @font-face {
+            font-family: "MinhaFonte";
+            src: url(Khofira.otf) format("opentype");
+        }
+        body {
+            font-family: MinhaFonte, Arial, Helvetica, sans-serif;
+            font-size: larger;
+            font-display: swap;
+            font-weight: 500px;
+            background-color: #b906065e;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 50px;
+            color: #0b0101;
+            text-shadow: 2px 2px 5px red;
+            margin-bottom: 40px;
+        }
+        div > p {
+            display: none;
+        
+        }
+        div:hover > p {
+            display: block;
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        
+        div{
+            font-size: 20px;
+            color: #0b0101;
+            text-shadow: 1px 1px 2px rgba(255, 0, 0, 0);
+            margin-bottom: 5px;
+        }
+        div:hover {
+            color: white;
+            background-color: #f00505;
+            text-shadow: 2px 2px 5px red;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Julia Girotti</h1>
+    <div id="div1">Eu
+                    <p>vc</p>
+    </div>
+    <div id="div2">Te
+        <p>é</p>
+    </div>
+    <div id="div3">Amo
+        <p>incrivel</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "utf-8";
+@font-face {
+    font-family:  fonte torta ;
+    src: url(fonts/TwoDown\,OnetoGo-Regular.ttf) format('truetype'), url(fonts/TDOTG_info.txt) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+body {
+    font-family: cursive;
+    
+}
+h1 {
+    font-family: fonte torta, times, sans-serif;
+    color: #87F5F1;
+    text-shadow: 1px 1px 2px #233b3bb2;
+    font-size: 3em;
+    
+} 
